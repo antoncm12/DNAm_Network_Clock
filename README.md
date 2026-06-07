@@ -33,7 +33,7 @@ A table with **samples in rows** and **CpG IDs in columns**, where the column na
 ### Python
 
 ```bash
-pip install git+https://github.com/antoncm12/dnam-network-clock-apply
+pip install git+https://github.com/antoncm12/DNAm_Network_Clock
 ```
 
 That's it. The trained weights ship inside the package; no extra downloads.
@@ -41,8 +41,8 @@ That's it. The trained weights ship inside the package; no extra downloads.
 For a local development install:
 
 ```bash
-git clone https://github.com/antoncm12/dnam-network-clock-apply
-cd dnam-network-clock-apply
+git clone https://github.com/antoncm12/DNAm_Network_Clock
+cd DNAm_Network_Clock
 pip install -e .
 ```
 
@@ -53,7 +53,7 @@ Requires Python ≥ 3.9, `numpy ≥ 1.20`, `pandas ≥ 1.3`.
 No package install — just clone the repository and `source()` the script:
 
 ```r
-source("path/to/dnam-network-clock-apply/R/dnam_network_clock.R")
+source("path/to/DNAm_Network_Clock/R/dnam_network_clock.R")
 ```
 
 The script auto-locates the `weights/` directory relative to itself. Tested on R ≥ 4.0; uses only base R.
@@ -63,7 +63,7 @@ The script auto-locates the `weights/` directory relative to itself. Tested on R
 Clone and add the `matlab/` folder to your path:
 
 ```matlab
-addpath('path/to/dnam-network-clock-apply/matlab')
+addpath('path/to/DNAm_Network_Clock/matlab')
 ```
 
 The functions auto-locate the `weights/` directory relative to their own location. Tested on MATLAB R2020b+; uses only built-in toolboxes.
@@ -159,7 +159,7 @@ print(f"max |new − expected| = {diff:.2e}  {'PASS' if diff < 1e-6 else 'FAIL'}
 ## Repository layout
 
 ```
-dnam-network-clock-apply/
+DNAm_Network_Clock/
 ├── README.md
 ├── LICENSE                          (MIT)
 ├── pyproject.toml                   Python package config
@@ -204,4 +204,4 @@ The trained weight files in `weights/` are released under **CC BY 4.0** — you 
 
 ## Issues & contact
 
-Open a [GitHub issue](https://github.com/antoncm12/dnam-network-clock-apply/issues) for bug reports or feature requests, or email [antoncm12@antoncm12] for scientific questions.
+Open a [GitHub issue](https://github.com/antoncm12/DNAm_Network_Clock/issues) for bug reports or feature requests, or email [antoncm12@antoncm12] for scientific questions.
