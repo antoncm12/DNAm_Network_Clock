@@ -1,0 +1,19 @@
+{
+  "clock_kind": "pca_cluster_median",
+  "K": 60,
+  "n_modules": 4595,
+  "n_cpgs": 7328,
+  "n_median_modules": 244,
+  "n_singleton_modules": 4351,
+  "ridge_alpha": 1000.0,
+  "training_metrics": {
+    "n_train": 1533,
+    "n_test": 384,
+    "r2_train": 0.854869347576069,
+    "r2_test": 0.8403240782342343,
+    "mae_train": 4.255154578998182,
+    "mae_test": 4.437887800011468
+  },
+  "format_version": "1.0",
+  "description": "Network-PCA epigenetic clock \u2014 K=60 principal components on per-module medians of CpG beta values. See README."
+}
