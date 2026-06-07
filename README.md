@@ -4,7 +4,7 @@
 
 Apply the **K = 60 PCA network-based epigenetic age clock** from Carcedo *et al.* (2026) to your own methylation data — in **Python**, **R**, or **MATLAB**.
 
-This is a *use-the-clock* repository. To see how the clock was built and trained, see the companion analysis repository [\[link\]](https://github.com/REPLACE_ME/dnam-network-clock-analysis).
+This is a *use-the-clock* repository. To see how the clock was built and trained, see the companion analysis repository [\[link\]](https://github.com/antoncm12/dnam-network-clock-analysis).
 
 ## What it does
 
@@ -33,7 +33,7 @@ A table with **samples in rows** and **CpG IDs in columns**, where the column na
 ### Python
 
 ```bash
-pip install git+https://github.com/REPLACE_ME/dnam-network-clock-apply
+pip install git+https://github.com/antoncm12/dnam-network-clock-apply
 ```
 
 That's it. The trained weights ship inside the package; no extra downloads.
@@ -41,7 +41,7 @@ That's it. The trained weights ship inside the package; no extra downloads.
 For a local development install:
 
 ```bash
-git clone https://github.com/REPLACE_ME/dnam-network-clock-apply
+git clone https://github.com/antoncm12/dnam-network-clock-apply
 cd dnam-network-clock-apply
 pip install -e .
 ```
@@ -195,7 +195,7 @@ If you use this clock in published work, please cite the original paper:
 
 And the archived code/weights:
 
-> Carcedo, A. (2026). DNAm Network Clock — apply (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.REPLACE_ME
+> Carcedo, A. (2026). DNAm Network Clock — apply (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.antoncm12
 
 ## License
 
@@ -204,4 +204,4 @@ The trained weight files in `weights/` are released under **CC BY 4.0** — you 
 
 ## Issues & contact
 
-Open a [GitHub issue](https://github.com/REPLACE_ME/dnam-network-clock-apply/issues) for bug reports or feature requests, or email [REPLACE_ME@REPLACE_ME] for scientific questions.
+Open a [GitHub issue](https://github.com/antoncm12/dnam-network-clock-apply/issues) for bug reports or feature requests, or email [antoncm12@antoncm12] for scientific questions.
