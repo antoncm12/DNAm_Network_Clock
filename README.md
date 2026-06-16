@@ -12,7 +12,7 @@ This repository is deliberately simple. There is no package to install. For each
 
 Under the hood it groups the input CpGs into the 4,595 modules discovered by Infomap clustering on a CpG to CpG Spearman correlation network, aggregates each module to one value per sample (the median of the available CpGs for multi CpG modules, the single CpG's value for singleton modules), standardises and centres that samples by 4,595 matrix with the training time scaler, projects it onto the first 60 principal components, and applies a ridge regression linear model (alpha = 1000) to produce the age.
 
-Training metrics, 1,917 whole blood samples, ages 18 to 94, 12 studies, an 80/20 split: test R2 = 0.840, test MAE = 4.44 years.
+Training metrics, 1,917 whole blood samples, ages 18 to 94, 12 studies.
 
 ## Your input
 
